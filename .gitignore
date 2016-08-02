@@ -1,3 +1,7 @@
 *.aux
+*.log
 *.out
 *.toc
+
+./latest/latex/main.pdf
+./latest/latex/main.synctex.gz
