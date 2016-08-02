@@ -3,5 +3,5 @@
 *.out
 *.toc
 
-./latest/latex/main.pdf
-./latest/latex/main.synctex.gz
+latest/latex/main.pdf
+latest/latex/main.synctex.gz
