@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Motivation}{1}{section.1}
+\contentsline {section}{\numberline {2}Silicon sensors}{1}{section.2}
+\contentsline {section}{\numberline {3}DUT}{1}{section.3}
+\contentsline {section}{\numberline {4}Telescope}{1}{section.4}
+\contentsline {section}{\numberline {5}Beam properties}{1}{section.5}
+\contentsline {section}{\numberline {6}Pedestals and noise}{1}{section.6}
+\contentsline {section}{\numberline {7}Clustering}{1}{section.7}
+\contentsline {section}{\numberline {8}Conclusions}{1}{section.8}
+\contentsline {section}{References}{2}{section*.2}
