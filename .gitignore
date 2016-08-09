@@ -3,5 +3,8 @@
 *.out
 *.toc
 
+.DS_Store
+.DS_Store?
+
 latest/latex/main.pdf
 latest/latex/main.synctex.gz

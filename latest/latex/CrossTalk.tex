@@ -1,0 +1,32 @@
+\section{Cross talk}
+\label{sec:CrossTalk}
+
+The following variable has been defined:
+\begin{displaymath}
+\alpha(i,\mathrm{seed}) = < \mathrm{SNR}_i/\mathrm{SNR}_\mathrm{seed} >,
+\end{displaymath}
+where $\mathrm{SNR}_i$ is the SNR associated to the $i^{th}$ readout channel, $\mathrm{SNR}_\mathrm{seed}$ is the SNR associated to the seed readout channel, and the average is performed over all events having the same seed.
+According to this definition, $\alpha(i,\mathrm{seed})$ is 1 for $i = \mathrm{seed}$ and varies between 0 and 1 for the rest of the readout channels. 
+For a given seed readout strip, a SNR significantly different from zero is expected on the neighbouring strips that contribute to the same cluster and, possibly, on their neighbours too. A non-negligible value of $\alpha(i,\mathrm{seed})$ in regions far from the seed readout strip would be an indication of a cross talk induces by the pitch adapter.
+The two dimensional map of $\alpha(i,\mathrm{seed})$ is shown in Figs. \ref{fig:CrossTalkMPARegion} and \ref{fig:CrossTalkMCentralRegion} for the mini sensors hit by the beam in the pitch adapter region and, respectively, in the central region, and in Fig. \ref{fig:CrossTalkF} for the half size sensor.
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.9\textwidth]{/Users/Nanakin/PhD/PhDThesis/Figures/TestBeam/CrossTalkMPARegion.png}
+\caption[Cross talk of the mini sensors for particles traversing the pitch adapter region.]{Cross talk of the mini sensors for particles traversing the pitch adapter region, calculated at a bias voltage of $300$~V.}
+\label{fig:CrossTalkMPARegion}
+\end{figure}
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.9\textwidth]{/Users/Nanakin/PhD/PhDThesis/Figures/TestBeam/CrossTalkMCentralRegion.png}
+\caption[Cross talk of the mini sensors for particles traversing the central region.]{Cross talk of the mini sensors for particles traversing the central region, calculated at a bias voltage of $300$~V.}
+\label{fig:CrossTalkMCentralRegion}
+\end{figure}
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.9\textwidth]{/Users/Nanakin/PhD/PhDThesis/Figures/TestBeam/CrossTalkF.png}
+\caption[Cross talk of the half size sensor.]{Cross talk of the half size sensor, calculated at a bias voltage of $210$~V.}
+\label{fig:CrossTalkF}
+\end{figure}
